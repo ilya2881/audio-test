@@ -1,0 +1,661 @@
+имеется следующее в документах 
+"D:\en\en\save_results.php"
+"D:\en\en\script.js"
+"D:\en\en\styles.css"
+"D:\en\en\Новый текстовый документ.txt"
+"D:\en\en\index.html"
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $userAnswers = $_POST["answers"]; // Массив ответов
+    $correctAnswers = ["1" => "b", "2" => "a"]; // Правильные ответы
+    
+    // Подсчёт правильных ответов
+    $score = 0;
+    foreach ($userAnswers as $question => $answer) {
+        if ($answer === $correctAnswers[$question]) {
+            $score++;
+        }
+    }
+    
+    // Можно сохранить в БД или файл
+    file_put_contents("results.txt", "Пользователь набрал: $score из " . count($correctAnswers));
+    
+    echo "Ваш результат: $score из " . count($correctAnswers);
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аудирование: местоимения</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Прослушайте и выберите перевод</h1>
+        
+        <!-- Блок вопроса -->
+        <div class="question">
+            <h3>Вопрос 1</h3>
+            <audio id="audio1" controls>
+                <source src="audio/we.mp3" type="audio/mpeg">
+                Ваш браузер не поддерживает аудио.
+            </audio>
+            <div class="options">
+                <button onclick="checkAnswer(1, 'a')">a) они</button>
+                <button onclick="checkAnswer(1, 'b')">b) мы</button>
+                <button onclick="checkAnswer(1, 'c')">c) вы</button>
+				<button onclick="checkAnswer(1, 'c')">c) вы</button>
+				<button onclick="checkAnswer(1, 'c')">c) вы</button>
+            </div>
+            <p id="feedback1"></p>
+        </div>
+
+        <!-- Вопрос 2 -->
+        <div class="question">
+            <h3>Вопрос 2</h3>
+            <audio id="audio2" controls>
+                <source src="audio/hers.mp3" type="audio/mpeg">
+                Ваш браузер не поддерживает аудио.
+            </audio>
+            <div class="options">
+                <button onclick="checkAnswer(2, 'a')">a) её (её собственное)</button>
+                <button onclick="checkAnswer(2, 'b')">b) его</button>
+                <button onclick="checkAnswer(2, 'c')">c) их</button>
+            </div>
+            <p id="feedback2"></p>
+        </div>
+
+        <!-- Кнопка проверки -->
+        <button id="submit" onclick="showResults()">Проверить ответы</button>
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+// Правильные ответы (вопрос => вариант)
+const correctAnswers = {
+    1: "b", // "we" → "мы"
+    2: "a"  // "hers" → "её"
+};
+
+// Проверка ответа
+function checkAnswer(questionNumber, selectedOption) {
+    const feedbackElement = document.getElementById(`feedback${questionNumber}`);
+    
+    if (selectedOption === correctAnswers[questionNumber]) {
+        feedbackElement.textContent = "✅ Верно!";
+        feedbackElement.style.color = "green";
+    } else {
+        feedbackElement.textContent = "❌ Неверно. Попробуйте ещё раз.";
+        feedbackElement.style.color = "red";
+    }
+}
+
+// Показать результаты
+function showResults() {
+    let score = 0;
+    const resultsDiv = document.getElementById("results");
+    
+    // Можно добавить сложную логику подсчёта баллов
+    resultsDiv.innerHTML = "<h3>Тест завершён!</h3><p>Правильные ответы: 'we' → 'мы', 'hers' → 'её'.</p>";
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.question {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+audio {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.options button:hover {
+    background: #e0e0e0;
+}
+
+#feedback1, #feedback2 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#submit:hover {
+    background: #45a049;
+}
+
+#results {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f8f8f8;
+    border-radius: 4px;
+}
+
+"D:\en\en\audio\stride.mp3"
+"D:\en\en\audio\strike.mp3"
+"D:\en\en\audio\string.mp3"
+"D:\en\en\audio\strip.mp3"
+"D:\en\en\audio\stript, stripped.mp3"
+"D:\en\en\audio\strive.mp3"
+"D:\en\en\audio\striven, strived.mp3"
+"D:\en\en\audio\strode, strided.mp3"
+"D:\en\en\audio\strove, strived.mp3"
+"D:\en\en\audio\struck, stricken.mp3"
+"D:\en\en\audio\struck.mp3"
+"D:\en\en\audio\strung, stringed.mp3"
+"D:\en\en\audio\stuck, sticked.mp3"
+"D:\en\en\audio\stung, stang.mp3"
+"D:\en\en\audio\stung.mp3"
+"D:\en\en\audio\stunk.mp3"
+"D:\en\en\audio\sung.mp3"
+"D:\en\en\audio\sunk.mp3"
+"D:\en\en\audio\swam.mp3"
+"D:\en\en\audio\swang.mp3"
+"D:\en\en\audio\swear.mp3"
+"D:\en\en\audio\sweat, sweated.mp3"
+"D:\en\en\audio\sweat.mp3"
+"D:\en\en\audio\sweep.mp3"
+"D:\en\en\audio\swell.mp3"
+"D:\en\en\audio\swelt, swole, swoll, swelled.mp3"
+"D:\en\en\audio\swelt.mp3"
+"D:\en\en\audio\swept, sweeped.mp3"
+"D:\en\en\audio\swim.mp3"
+"D:\en\en\audio\swing.mp3"
+"D:\en\en\audio\swollen, swelled.mp3"
+"D:\en\en\audio\swore.mp3"
+"D:\en\en\audio\sworn.mp3"
+"D:\en\en\audio\swum.mp3"
+"D:\en\en\audio\swung.mp3"
+"D:\en\en\audio\take.mp3"
+"D:\en\en\audio\taken.mp3"
+"D:\en\en\audio\taught.mp3"
+"D:\en\en\audio\teach.mp3"
+"D:\en\en\audio\tear.mp3"
+"D:\en\en\audio\tell.mp3"
+"D:\en\en\audio\think.mp3"
+"D:\en\en\audio\thought.mp3"
+"D:\en\en\audio\threw.mp3"
+"D:\en\en\audio\thrive.mp3"
+"D:\en\en\audio\thriven, thrived.mp3"
+"D:\en\en\audio\throve, thrived, thrave.mp3"
+"D:\en\en\audio\throve, thrived.mp3"
+"D:\en\en\audio\throw.mp3"
+"D:\en\en\audio\thrown.mp3"
+"D:\en\en\audio\thrust, thrusted.mp3"
+"D:\en\en\audio\thrust.mp3"
+"D:\en\en\audio\told.mp3"
+"D:\en\en\audio\took.mp3"
+"D:\en\en\audio\tore.mp3"
+"D:\en\en\audio\torn.mp3"
+"D:\en\en\audio\understand.mp3"
+"D:\en\en\audio\understood.mp3"
+"D:\en\en\audio\vex.mp3"
+"D:\en\en\audio\vext, vexed.mp3"
+"D:\en\en\audio\wake.mp3"
+"D:\en\en\audio\was, were.mp3"
+"D:\en\en\audio\wax.mp3"
+"D:\en\en\audio\waxen, waxed.mp3"
+"D:\en\en\audio\wear.mp3"
+"D:\en\en\audio\weave.mp3"
+"D:\en\en\audio\wed, wedded.mp3"
+"D:\en\en\audio\wed.mp3"
+"D:\en\en\audio\weep.mp3"
+"D:\en\en\audio\wend.mp3"
+"D:\en\en\audio\went, wended.mp3"
+"D:\en\en\audio\went.mp3"
+"D:\en\en\audio\wept, weeped.mp3"
+"D:\en\en\audio\wet, wetted.mp3"
+"D:\en\en\audio\wet.mp3"
+"D:\en\en\audio\wex, waxed.mp3"
+"D:\en\en\audio\win.mp3"
+"D:\en\en\audio\wind.mp3"
+"D:\en\en\audio\woke.mp3"
+"D:\en\en\audio\woken.mp3"
+"D:\en\en\audio\won.mp3"
+"D:\en\en\audio\wore.mp3"
+"D:\en\en\audio\worn.mp3"
+"D:\en\en\audio\wound.mp3"
+"D:\en\en\audio\wove.mp3"
+"D:\en\en\audio\woven.mp3"
+"D:\en\en\audio\wrang, wrung, wringed.mp3"
+"D:\en\en\audio\wreak.mp3"
+"D:\en\en\audio\wring.mp3"
+"D:\en\en\audio\write.mp3"
+"D:\en\en\audio\writhe.mp3"
+"D:\en\en\audio\writhen, writhed.mp3"
+"D:\en\en\audio\written.mp3"
+"D:\en\en\audio\wroke, wreaked.mp3"
+"D:\en\en\audio\wroken, wreaked.mp3"
+"D:\en\en\audio\wrote.mp3"
+"D:\en\en\audio\wrothe, writhed.mp3"
+"D:\en\en\audio\wrung, wringed.mp3"
+"D:\en\en\audio\ate.mp3"
+"D:\en\en\audio\be (am, is, are).mp3"
+"D:\en\en\audio\bear.mp3"
+"D:\en\en\audio\beat.mp3"
+"D:\en\en\audio\beaten.mp3"
+"D:\en\en\audio\became.mp3"
+"D:\en\en\audio\become.mp3"
+"D:\en\en\audio\been.mp3"
+"D:\en\en\audio\began.mp3"
+"D:\en\en\audio\beget.mp3"
+"D:\en\en\audio\begin.mp3"
+"D:\en\en\audio\begot.mp3"
+"D:\en\en\audio\begotten.mp3"
+"D:\en\en\audio\begun.mp3"
+"D:\en\en\audio\bend.mp3"
+"D:\en\en\audio\bent.mp3"
+"D:\en\en\audio\bereave.mp3"
+"D:\en\en\audio\bereft, bereaved.mp3"
+"D:\en\en\audio\beseech.mp3"
+"D:\en\en\audio\besought, beseeched.mp3"
+"D:\en\en\audio\bet.mp3"
+"D:\en\en\audio\bid.mp3"
+"D:\en\en\audio\bidden, bided.mp3"
+"D:\en\en\audio\bide.mp3"
+"D:\en\en\audio\bind.mp3"
+"D:\en\en\audio\bit.mp3"
+"D:\en\en\audio\bite.mp3"
+"D:\en\en\audio\bitten.mp3"
+"D:\en\en\audio\bled.mp3"
+"D:\en\en\audio\bleed.mp3"
+"D:\en\en\audio\blew.mp3"
+"D:\en\en\audio\blow.mp3"
+"D:\en\en\audio\blown.mp3"
+"D:\en\en\audio\bode, bided.mp3"
+"D:\en\en\audio\bore.mp3"
+"D:\en\en\audio\born, borne.mp3"
+"D:\en\en\audio\bought.mp3"
+"D:\en\en\audio\bound.mp3"
+"D:\en\en\audio\break.mp3"
+"D:\en\en\audio\bred.mp3"
+"D:\en\en\audio\breed.mp3"
+"D:\en\en\audio\bring.mp3"
+"D:\en\en\audio\broadcast, broadcasted.mp3"
+"D:\en\en\audio\broadcast.mp3"
+"D:\en\en\audio\broke.mp3"
+"D:\en\en\audio\broken.mp3"
+"D:\en\en\audio\brought.mp3"
+"D:\en\en\audio\build.mp3"
+"D:\en\en\audio\built.mp3"
+"D:\en\en\audio\burn.mp3"
+"D:\en\en\audio\burnt, burned.mp3"
+"D:\en\en\audio\burst.mp3"
+"D:\en\en\audio\bust, busted.mp3"
+"D:\en\en\audio\bust.mp3"
+"D:\en\en\audio\buy.mp3"
+"D:\en\en\audio\came.mp3"
+"D:\en\en\audio\cast.mp3"
+"D:\en\en\audio\catch.mp3"
+"D:\en\en\audio\caught.mp3"
+"D:\en\en\audio\chid, chided.mp3"
+"D:\en\en\audio\chidden, chided, chid.mp3"
+"D:\en\en\audio\chide.mp3"
+"D:\en\en\audio\choose.mp3"
+"D:\en\en\audio\chose.mp3"
+"D:\en\en\audio\chosen.mp3"
+"D:\en\en\audio\clad, clothed.mp3"
+"D:\en\en\audio\clad.mp3"
+"D:\en\en\audio\clap.mp3"
+"D:\en\en\audio\clapt, clapped.mp3"
+"D:\en\en\audio\cleave.mp3"
+"D:\en\en\audio\cleft, cleaved.mp3"
+"D:\en\en\audio\cling.mp3"
+"D:\en\en\audio\clothe.mp3"
+"D:\en\en\audio\cloven, cleaved.mp3"
+"D:\en\en\audio\clung.mp3"
+"D:\en\en\audio\come.mp3"
+"D:\en\en\audio\cost, costed.mp3"
+"D:\en\en\audio\cost.mp3"
+"D:\en\en\audio\creep.mp3"
+"D:\en\en\audio\crept, crope.mp3"
+"D:\en\en\audio\crept, cropen.mp3"
+"D:\en\en\audio\crew, crowed.mp3"
+"D:\en\en\audio\crow.mp3"
+"D:\en\en\audio\crown, crowed.mp3"
+"D:\en\en\audio\cut.mp3"
+"D:\en\en\audio\dare.mp3"
+"D:\en\en\audio\deal.mp3"
+"D:\en\en\audio\dealt.mp3"
+"D:\en\en\audio\did.mp3"
+"D:\en\en\audio\dig.mp3"
+"D:\en\en\audio\dive.mp3"
+"D:\en\en\audio\do.mp3"
+"D:\en\en\audio\done.mp3"
+"D:\en\en\audio\dove, dived.mp3"
+"D:\en\en\audio\drag.mp3"
+"D:\en\en\audio\drank.mp3"
+"D:\en\en\audio\draw.mp3"
+"D:\en\en\audio\drawn.mp3"
+"D:\en\en\audio\dress.mp3"
+"D:\en\en\audio\drest, dressed.mp3"
+"D:\en\en\audio\drew.mp3"
+"D:\en\en\audio\drink.mp3"
+"D:\en\en\audio\drive.mp3"
+"D:\en\en\audio\driven.mp3"
+"D:\en\en\audio\drove.mp3"
+"D:\en\en\audio\drug, dragged.mp3"
+"D:\en\en\audio\drunk.mp3"
+"D:\en\en\audio\dug.mp3"
+"D:\en\en\audio\durst, dared.mp3"
+"D:\en\en\audio\dwell.mp3"
+"D:\en\en\audio\dwelt, dwelled.mp3"
+"D:\en\en\audio\eat.mp3"
+"D:\en\en\audio\eaten.mp3"
+"D:\en\en\audio\fall.mp3"
+"D:\en\en\audio\fallen.mp3"
+"D:\en\en\audio\fed.mp3"
+"D:\en\en\audio\feed.mp3"
+"D:\en\en\audio\feel.mp3"
+"D:\en\en\audio\fell.mp3"
+"D:\en\en\audio\felt.mp3"
+"D:\en\en\audio\fight.mp3"
+"D:\en\en\audio\find.mp3"
+"D:\en\en\audio\fit, fitted.mp3"
+"D:\en\en\audio\fit.mp3"
+"D:\en\en\audio\fled.mp3"
+"D:\en\en\audio\flee.mp3"
+"D:\en\en\audio\flew.mp3"
+"D:\en\en\audio\fling.mp3"
+"D:\en\en\audio\flown.mp3"
+"D:\en\en\audio\flung.mp3"
+"D:\en\en\audio\fly.mp3"
+"D:\en\en\audio\forbade.mp3"
+"D:\en\en\audio\forbid.mp3"
+"D:\en\en\audio\forbidden.mp3"
+"D:\en\en\audio\forgave.mp3"
+"D:\en\en\audio\forget.mp3"
+"D:\en\en\audio\forgive.mp3"
+"D:\en\en\audio\forgiven.mp3"
+"D:\en\en\audio\forgot.mp3"
+"D:\en\en\audio\forgotten.mp3"
+"D:\en\en\audio\forsake.mp3"
+"D:\en\en\audio\forsaken.mp3"
+"D:\en\en\audio\forsook.mp3"
+"D:\en\en\audio\found.mp3"
+"D:\en\en\audio\freeze.mp3"
+"D:\en\en\audio\froze.mp3"
+"D:\en\en\audio\frozen.mp3"
+"D:\en\en\audio\gave.mp3"
+"D:\en\en\audio\get.mp3"
+"D:\en\en\audio\gild.mp3"
+"D:\en\en\audio\gilt, gilded.mp3"
+"D:\en\en\audio\gird.mp3"
+"D:\en\en\audio\girt, girded.mp3"
+"D:\en\en\audio\give.mp3"
+"D:\en\en\audio\given.mp3"
+"D:\en\en\audio\go.mp3"
+"D:\en\en\audio\gone.mp3"
+"D:\en\en\audio\got, gotten.mp3"
+"D:\en\en\audio\got.mp3"
+"D:\en\en\audio\grew.mp3"
+"D:\en\en\audio\grind.mp3"
+"D:\en\en\audio\ground, grinded.mp3"
+"D:\en\en\audio\grow.mp3"
+"D:\en\en\audio\grown.mp3"
+"D:\en\en\audio\had.mp3"
+"D:\en\en\audio\hang.mp3"
+"D:\en\en\audio\have.mp3"
+"D:\en\en\audio\hear.mp3"
+"D:\en\en\audio\heard.mp3"
+"D:\en\en\audio\heave.mp3"
+"D:\en\en\audio\held.mp3"
+"D:\en\en\audio\hew, hewed.mp3"
+"D:\en\en\audio\hew.mp3"
+"D:\en\en\audio\hewn, hewed.mp3"
+"D:\en\en\audio\hid.mp3"
+"D:\en\en\audio\hidden.mp3"
+"D:\en\en\audio\hide.mp3"
+"D:\en\en\audio\hit.mp3"
+"D:\en\en\audio\hoist, hoisted.mp3"
+"D:\en\en\audio\hoist.mp3"
+"D:\en\en\audio\hold.mp3"
+"D:\en\en\audio\hove, heaved.mp3"
+"D:\en\en\audio\hoven, heaved, hove.mp3"
+"D:\en\en\audio\hung.mp3"
+"D:\en\en\audio\hurt.mp3"
+"D:\en\en\audio\keep.mp3"
+"D:\en\en\audio\ken.mp3"
+"D:\en\en\audio\kent, kenned.mp3"
+"D:\en\en\audio\kept.mp3"
+"D:\en\en\audio\kneel.mp3"
+"D:\en\en\audio\knelt, kneeled.mp3"
+"D:\en\en\audio\knew.mp3"
+"D:\en\en\audio\knit, knitted.mp3"
+"D:\en\en\audio\knit.mp3"
+"D:\en\en\audio\know.mp3"
+"D:\en\en\audio\known.mp3"
+"D:\en\en\audio\lade.mp3"
+"D:\en\en\audio\laden, laded.mp3"
+"D:\en\en\audio\laid.mp3"
+"D:\en\en\audio\lain.mp3"
+"D:\en\en\audio\lay.mp3"
+"D:\en\en\audio\lead.mp3"
+"D:\en\en\audio\lean.mp3"
+"D:\en\en\audio\leant, leaned.mp3"
+"D:\en\en\audio\leap.mp3"
+"D:\en\en\audio\leapt, leaped.mp3"
+"D:\en\en\audio\learn.mp3"
+"D:\en\en\audio\learnt, learned.mp3"
+"D:\en\en\audio\leave.mp3"
+"D:\en\en\audio\led.mp3"
+"D:\en\en\audio\left.mp3"
+"D:\en\en\audio\lend.mp3"
+"D:\en\en\audio\lent.mp3"
+"D:\en\en\audio\let.mp3"
+"D:\en\en\audio\lie.mp3"
+"D:\en\en\audio\light.mp3"
+"D:\en\en\audio\lit.mp3"
+"D:\en\en\audio\lode, laded.mp3"
+"D:\en\en\audio\lose.mp3"
+"D:\en\en\audio\lost.mp3"
+"D:\en\en\audio\made.mp3"
+"D:\en\en\audio\make.mp3"
+"D:\en\en\audio\mean.mp3"
+"D:\en\en\audio\meant.mp3"
+"D:\en\en\audio\meet.mp3"
+"D:\en\en\audio\melt.mp3"
+"D:\en\en\audio\met.mp3"
+"D:\en\en\audio\molt, melted.mp3"
+"D:\en\en\audio\molt, molted.mp3"
+"D:\en\en\audio\molten, melted.mp3"
+"D:\en\en\audio\mow.mp3"
+"D:\en\en\audio\mowed.mp3"
+"D:\en\en\audio\mown, mowed.mp3"
+"D:\en\en\audio\or.mp3"
+"D:\en\en\audio\paid.mp3"
+"D:\en\en\audio\pay.mp3"
+"D:\en\en\audio\plead.mp3"
+"D:\en\en\audio\pled, pleaded.mp3"
+"D:\en\en\audio\prove.mp3"
+"D:\en\en\audio\proved.mp3"
+"D:\en\en\audio\proven, proved.mp3"
+"D:\en\en\audio\put.mp3"
+"D:\en\en\audio\quit, quitted.mp3"
+"D:\en\en\audio\quit.mp3"
+"D:\en\en\audio\ran.mp3"
+"D:\en\en\audio\rang.mp3"
+"D:\en\en\audio\read.mp3"
+"D:\en\en\audio\read2.mp3"
+"D:\en\en\audio\rend.mp3"
+"D:\en\en\audio\rent.mp3"
+"D:\en\en\audio\rid, ridded.mp3"
+"D:\en\en\audio\rid.mp3"
+"D:\en\en\audio\ridden.mp3"
+"D:\en\en\audio\ride.mp3"
+"D:\en\en\audio\ring.mp3"
+"D:\en\en\audio\rise.mp3"
+"D:\en\en\audio\risen.mp3"
+"D:\en\en\audio\rive.mp3"
+"D:\en\en\audio\riven, rived.mp3"
+"D:\en\en\audio\rode.mp3"
+"D:\en\en\audio\rose.mp3"
+"D:\en\en\audio\rove, rived.mp3"
+"D:\en\en\audio\run.mp3"
+"D:\en\en\audio\rung.mp3"
+"D:\en\en\audio\said.mp3"
+"D:\en\en\audio\sang.mp3"
+"D:\en\en\audio\sank.mp3"
+"D:\en\en\audio\sat.mp3"
+"D:\en\en\audio\saw.mp3"
+"D:\en\en\audio\sawed.mp3"
+"D:\en\en\audio\sawn, sawed.mp3"
+"D:\en\en\audio\say.mp3"
+"D:\en\en\audio\see.mp3"
+"D:\en\en\audio\seek.mp3"
+"D:\en\en\audio\seen.mp3"
+"D:\en\en\audio\seethe.mp3"
+"D:\en\en\audio\sell.mp3"
+"D:\en\en\audio\send.mp3"
+"D:\en\en\audio\sent.mp3"
+"D:\en\en\audio\set.mp3"
+"D:\en\en\audio\sew.mp3"
+"D:\en\en\audio\sewed.mp3"
+"D:\en\en\audio\sewn, sewed, sewen.mp3"
+"D:\en\en\audio\shake.mp3"
+"D:\en\en\audio\shaken.mp3"
+"D:\en\en\audio\shave.mp3"
+"D:\en\en\audio\shaved.mp3"
+"D:\en\en\audio\shaven.mp3"
+"D:\en\en\audio\shear.mp3"
+"D:\en\en\audio\shed.mp3"
+"D:\en\en\audio\shit, shat, shitted, shitten.mp3"
+"D:\en\en\audio\shit, shat, shitted.mp3"
+"D:\en\en\audio\shit.mp3"
+"D:\en\en\audio\shod, shoed.mp3"
+"D:\en\en\audio\shodden, shod, shoed.mp3"
+"D:\en\en\audio\shoe, shoed.mp3"
+"D:\en\en\audio\shoe.mp3"
+"D:\en\en\audio\shook.mp3"
+"D:\en\en\audio\shoot.mp3"
+"D:\en\en\audio\shore, sheared.mp3"
+"D:\en\en\audio\shorn, sheared.mp3"
+"D:\en\en\audio\shot.mp3"
+"D:\en\en\audio\show.mp3"
+"D:\en\en\audio\showed.mp3"
+"D:\en\en\audio\shown.mp3"
+"D:\en\en\audio\shrank.mp3"
+"D:\en\en\audio\shrink.mp3"
+"D:\en\en\audio\shrunk.mp3"
+"D:\en\en\audio\shut.mp3"
+"D:\en\en\audio\sing.mp3"
+"D:\en\en\audio\sink.mp3"
+"D:\en\en\audio\sit.mp3"
+"D:\en\en\audio\slank, slunk, slinked.mp3"
+"D:\en\en\audio\sleep.mp3"
+"D:\en\en\audio\slept.mp3"
+"D:\en\en\audio\slid.mp3"
+"D:\en\en\audio\slidden, slid.mp3"
+"D:\en\en\audio\slide.mp3"
+"D:\en\en\audio\sling.mp3"
+"D:\en\en\audio\slink.mp3"
+"D:\en\en\audio\slip.mp3"
+"D:\en\en\audio\slipt, slipped.mp3"
+"D:\en\en\audio\slit.mp3"
+"D:\en\en\audio\slitten.mp3"
+"D:\en\en\audio\slung.mp3"
+"D:\en\en\audio\slunk, slinked, slank.mp3"
+"D:\en\en\audio\smell.mp3"
+"D:\en\en\audio\smelt, smelled.mp3"
+"D:\en\en\audio\smite.mp3"
+"D:\en\en\audio\smitten, smitted.mp3"
+"D:\en\en\audio\smote, smit.mp3"
+"D:\en\en\audio\sod, seethed.mp3"
+"D:\en\en\audio\sodden, seethed.mp3"
+"D:\en\en\audio\sold.mp3"
+"D:\en\en\audio\sought.mp3"
+"D:\en\en\audio\sow.mp3"
+"D:\en\en\audio\sowed.mp3"
+"D:\en\en\audio\sown, sowed.mp3"
+"D:\en\en\audio\span.mp3"
+"D:\en\en\audio\spat, spit.mp3"
+"D:\en\en\audio\speak.mp3"
+"D:\en\en\audio\spell.mp3"
+"D:\en\en\audio\spelt, spelled.mp3"
+"D:\en\en\audio\spend.mp3"
+"D:\en\en\audio\spent.mp3"
+"D:\en\en\audio\spill.mp3"
+"D:\en\en\audio\spilt, spilled.mp3"
+"D:\en\en\audio\spin.mp3"
+"D:\en\en\audio\spit.mp3"
+"D:\en\en\audio\split.mp3"
+"D:\en\en\audio\spoke.mp3"
+"D:\en\en\audio\spoken.mp3"
+"D:\en\en\audio\sprang.mp3"
+"D:\en\en\audio\spread, spreaded.mp3"
+"D:\en\en\audio\spread.mp3"
+"D:\en\en\audio\spring.mp3"
+"D:\en\en\audio\sprung.mp3"
+"D:\en\en\audio\spun.mp3"
+"D:\en\en\audio\stand.mp3"
+"D:\en\en\audio\stank, stunk.mp3"
+"D:\en\en\audio\stave.mp3"
+"D:\en\en\audio\steal.mp3"
+"D:\en\en\audio\stick.mp3"
+"D:\en\en\audio\sting.mp3"
+"D:\en\en\audio\stink.mp3"
+"D:\en\en\audio\stole.mp3"
+"D:\en\en\audio\stolen.mp3"
+"D:\en\en\audio\stove, staved.mp3"
+"D:\en\en\audio\stove.mp3"
+"D:\en\en\audio\stoven, stove, staved.mp3"
+"D:\en\en\audio\straught, straight, stretched.mp3"
+"D:\en\en\audio\stretch.mp3"
+"D:\en\en\audio\strew.mp3"
+"D:\en\en\audio\strewed.mp3"
+"D:\en\en\audio\strewn.mp3"
+"D:\en\en\audio\stridden, strode, strid, strided.mp3"
+
+мне нужно сделать аудирование с привязкой к пути указанному в конце

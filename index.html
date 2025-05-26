@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Аудио Тест</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Аудио Тест</h1>
+<audio id="player" controls></audio>
+
+<form id="test-form">
+  <label>Слово на английском:
+    <input type="text" id="english">
+  </label>
+  <label>Перевод на русском:
+    <input type="text" id="russian">
+  </label>
+  <button type="submit">Проверить</button>
+</form>
+
+<p id="result"></p>
+<p id="timer">Время: 0 сек</p>
+<p id="score">Правильных ответов: 0</p>
+<button id="next">Следующее</button>
+
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,950 @@
+"D:\en\en\audio\stride.mp3"
+"D:\en\en\audio\strike.mp3"
+"D:\en\en\audio\string.mp3"
+"D:\en\en\audio\strip.mp3"
+"D:\en\en\audio\stript, stripped.mp3"
+"D:\en\en\audio\strive.mp3"
+"D:\en\en\audio\striven, strived.mp3"
+"D:\en\en\audio\strode, strided.mp3"
+"D:\en\en\audio\strove, strived.mp3"
+"D:\en\en\audio\struck, stricken.mp3"
+"D:\en\en\audio\struck.mp3"
+"D:\en\en\audio\strung, stringed.mp3"
+"D:\en\en\audio\stuck, sticked.mp3"
+"D:\en\en\audio\stung, stang.mp3"
+"D:\en\en\audio\stung.mp3"
+"D:\en\en\audio\stunk.mp3"
+"D:\en\en\audio\sung.mp3"
+"D:\en\en\audio\sunk.mp3"
+"D:\en\en\audio\swam.mp3"
+"D:\en\en\audio\swang.mp3"
+"D:\en\en\audio\swear.mp3"
+"D:\en\en\audio\sweat, sweated.mp3"
+"D:\en\en\audio\sweat.mp3"
+"D:\en\en\audio\sweep.mp3"
+"D:\en\en\audio\swell.mp3"
+"D:\en\en\audio\swelt, swole, swoll, swelled.mp3"
+"D:\en\en\audio\swelt.mp3"
+"D:\en\en\audio\swept, sweeped.mp3"
+"D:\en\en\audio\swim.mp3"
+"D:\en\en\audio\swing.mp3"
+"D:\en\en\audio\swollen, swelled.mp3"
+"D:\en\en\audio\swore.mp3"
+"D:\en\en\audio\sworn.mp3"
+"D:\en\en\audio\swum.mp3"
+"D:\en\en\audio\swung.mp3"
+"D:\en\en\audio\take.mp3"
+"D:\en\en\audio\taken.mp3"
+"D:\en\en\audio\taught.mp3"
+"D:\en\en\audio\teach.mp3"
+"D:\en\en\audio\tear.mp3"
+"D:\en\en\audio\tell.mp3"
+"D:\en\en\audio\think.mp3"
+"D:\en\en\audio\thought.mp3"
+"D:\en\en\audio\threw.mp3"
+"D:\en\en\audio\thrive.mp3"
+"D:\en\en\audio\thriven, thrived.mp3"
+"D:\en\en\audio\throve, thrived, thrave.mp3"
+"D:\en\en\audio\throve, thrived.mp3"
+"D:\en\en\audio\throw.mp3"
+"D:\en\en\audio\thrown.mp3"
+"D:\en\en\audio\thrust, thrusted.mp3"
+"D:\en\en\audio\thrust.mp3"
+"D:\en\en\audio\told.mp3"
+"D:\en\en\audio\took.mp3"
+"D:\en\en\audio\tore.mp3"
+"D:\en\en\audio\torn.mp3"
+"D:\en\en\audio\understand.mp3"
+"D:\en\en\audio\understood.mp3"
+"D:\en\en\audio\vex.mp3"
+"D:\en\en\audio\vext, vexed.mp3"
+"D:\en\en\audio\wake.mp3"
+"D:\en\en\audio\was, were.mp3"
+"D:\en\en\audio\wax.mp3"
+"D:\en\en\audio\waxen, waxed.mp3"
+"D:\en\en\audio\wear.mp3"
+"D:\en\en\audio\weave.mp3"
+"D:\en\en\audio\wed, wedded.mp3"
+"D:\en\en\audio\wed.mp3"
+"D:\en\en\audio\weep.mp3"
+"D:\en\en\audio\wend.mp3"
+"D:\en\en\audio\went, wended.mp3"
+"D:\en\en\audio\went.mp3"
+"D:\en\en\audio\wept, weeped.mp3"
+"D:\en\en\audio\wet, wetted.mp3"
+"D:\en\en\audio\wet.mp3"
+"D:\en\en\audio\wex, waxed.mp3"
+"D:\en\en\audio\win.mp3"
+"D:\en\en\audio\wind.mp3"
+"D:\en\en\audio\woke.mp3"
+"D:\en\en\audio\woken.mp3"
+"D:\en\en\audio\won.mp3"
+"D:\en\en\audio\wore.mp3"
+"D:\en\en\audio\worn.mp3"
+"D:\en\en\audio\wound.mp3"
+"D:\en\en\audio\wove.mp3"
+"D:\en\en\audio\woven.mp3"
+"D:\en\en\audio\wrang, wrung, wringed.mp3"
+"D:\en\en\audio\wreak.mp3"
+"D:\en\en\audio\wring.mp3"
+"D:\en\en\audio\write.mp3"
+"D:\en\en\audio\writhe.mp3"
+"D:\en\en\audio\writhen, writhed.mp3"
+"D:\en\en\audio\written.mp3"
+"D:\en\en\audio\wroke, wreaked.mp3"
+"D:\en\en\audio\wroken, wreaked.mp3"
+"D:\en\en\audio\wrote.mp3"
+"D:\en\en\audio\wrothe, writhed.mp3"
+"D:\en\en\audio\wrung, wringed.mp3"
+"D:\en\en\audio\ate.mp3"
+"D:\en\en\audio\be (am, is, are).mp3"
+"D:\en\en\audio\bear.mp3"
+"D:\en\en\audio\beat.mp3"
+"D:\en\en\audio\beaten.mp3"
+"D:\en\en\audio\became.mp3"
+"D:\en\en\audio\become.mp3"
+"D:\en\en\audio\been.mp3"
+"D:\en\en\audio\began.mp3"
+"D:\en\en\audio\beget.mp3"
+"D:\en\en\audio\begin.mp3"
+"D:\en\en\audio\begot.mp3"
+"D:\en\en\audio\begotten.mp3"
+"D:\en\en\audio\begun.mp3"
+"D:\en\en\audio\bend.mp3"
+"D:\en\en\audio\bent.mp3"
+"D:\en\en\audio\bereave.mp3"
+"D:\en\en\audio\bereft, bereaved.mp3"
+"D:\en\en\audio\beseech.mp3"
+"D:\en\en\audio\besought, beseeched.mp3"
+"D:\en\en\audio\bet.mp3"
+"D:\en\en\audio\bid.mp3"
+"D:\en\en\audio\bidden, bided.mp3"
+"D:\en\en\audio\bide.mp3"
+"D:\en\en\audio\bind.mp3"
+"D:\en\en\audio\bit.mp3"
+"D:\en\en\audio\bite.mp3"
+"D:\en\en\audio\bitten.mp3"
+"D:\en\en\audio\bled.mp3"
+"D:\en\en\audio\bleed.mp3"
+"D:\en\en\audio\blew.mp3"
+"D:\en\en\audio\blow.mp3"
+"D:\en\en\audio\blown.mp3"
+"D:\en\en\audio\bode, bided.mp3"
+"D:\en\en\audio\bore.mp3"
+"D:\en\en\audio\born, borne.mp3"
+"D:\en\en\audio\bought.mp3"
+"D:\en\en\audio\bound.mp3"
+"D:\en\en\audio\break.mp3"
+"D:\en\en\audio\bred.mp3"
+"D:\en\en\audio\breed.mp3"
+"D:\en\en\audio\bring.mp3"
+"D:\en\en\audio\broadcast, broadcasted.mp3"
+"D:\en\en\audio\broadcast.mp3"
+"D:\en\en\audio\broke.mp3"
+"D:\en\en\audio\broken.mp3"
+"D:\en\en\audio\brought.mp3"
+"D:\en\en\audio\build.mp3"
+"D:\en\en\audio\built.mp3"
+"D:\en\en\audio\burn.mp3"
+"D:\en\en\audio\burnt, burned.mp3"
+"D:\en\en\audio\burst.mp3"
+"D:\en\en\audio\bust, busted.mp3"
+"D:\en\en\audio\bust.mp3"
+"D:\en\en\audio\buy.mp3"
+"D:\en\en\audio\came.mp3"
+"D:\en\en\audio\cast.mp3"
+"D:\en\en\audio\catch.mp3"
+"D:\en\en\audio\caught.mp3"
+"D:\en\en\audio\chid, chided.mp3"
+"D:\en\en\audio\chidden, chided, chid.mp3"
+"D:\en\en\audio\chide.mp3"
+"D:\en\en\audio\choose.mp3"
+"D:\en\en\audio\chose.mp3"
+"D:\en\en\audio\chosen.mp3"
+"D:\en\en\audio\clad, clothed.mp3"
+"D:\en\en\audio\clad.mp3"
+"D:\en\en\audio\clap.mp3"
+"D:\en\en\audio\clapt, clapped.mp3"
+"D:\en\en\audio\cleave.mp3"
+"D:\en\en\audio\cleft, cleaved.mp3"
+"D:\en\en\audio\cling.mp3"
+"D:\en\en\audio\clothe.mp3"
+"D:\en\en\audio\cloven, cleaved.mp3"
+"D:\en\en\audio\clung.mp3"
+"D:\en\en\audio\come.mp3"
+"D:\en\en\audio\cost, costed.mp3"
+"D:\en\en\audio\cost.mp3"
+"D:\en\en\audio\creep.mp3"
+"D:\en\en\audio\crept, crope.mp3"
+"D:\en\en\audio\crept, cropen.mp3"
+"D:\en\en\audio\crew, crowed.mp3"
+"D:\en\en\audio\crow.mp3"
+"D:\en\en\audio\crown, crowed.mp3"
+"D:\en\en\audio\cut.mp3"
+"D:\en\en\audio\dare.mp3"
+"D:\en\en\audio\deal.mp3"
+"D:\en\en\audio\dealt.mp3"
+"D:\en\en\audio\did.mp3"
+"D:\en\en\audio\dig.mp3"
+"D:\en\en\audio\dive.mp3"
+"D:\en\en\audio\do.mp3"
+"D:\en\en\audio\done.mp3"
+"D:\en\en\audio\dove, dived.mp3"
+"D:\en\en\audio\drag.mp3"
+"D:\en\en\audio\drank.mp3"
+"D:\en\en\audio\draw.mp3"
+"D:\en\en\audio\drawn.mp3"
+"D:\en\en\audio\dress.mp3"
+"D:\en\en\audio\drest, dressed.mp3"
+"D:\en\en\audio\drew.mp3"
+"D:\en\en\audio\drink.mp3"
+"D:\en\en\audio\drive.mp3"
+"D:\en\en\audio\driven.mp3"
+"D:\en\en\audio\drove.mp3"
+"D:\en\en\audio\drug, dragged.mp3"
+"D:\en\en\audio\drunk.mp3"
+"D:\en\en\audio\dug.mp3"
+"D:\en\en\audio\durst, dared.mp3"
+"D:\en\en\audio\dwell.mp3"
+"D:\en\en\audio\dwelt, dwelled.mp3"
+"D:\en\en\audio\eat.mp3"
+"D:\en\en\audio\eaten.mp3"
+"D:\en\en\audio\fall.mp3"
+"D:\en\en\audio\fallen.mp3"
+"D:\en\en\audio\fed.mp3"
+"D:\en\en\audio\feed.mp3"
+"D:\en\en\audio\feel.mp3"
+"D:\en\en\audio\fell.mp3"
+"D:\en\en\audio\felt.mp3"
+"D:\en\en\audio\fight.mp3"
+"D:\en\en\audio\find.mp3"
+"D:\en\en\audio\fit, fitted.mp3"
+"D:\en\en\audio\fit.mp3"
+"D:\en\en\audio\fled.mp3"
+"D:\en\en\audio\flee.mp3"
+"D:\en\en\audio\flew.mp3"
+"D:\en\en\audio\fling.mp3"
+"D:\en\en\audio\flown.mp3"
+"D:\en\en\audio\flung.mp3"
+"D:\en\en\audio\fly.mp3"
+"D:\en\en\audio\forbade.mp3"
+"D:\en\en\audio\forbid.mp3"
+"D:\en\en\audio\forbidden.mp3"
+"D:\en\en\audio\forgave.mp3"
+"D:\en\en\audio\forget.mp3"
+"D:\en\en\audio\forgive.mp3"
+"D:\en\en\audio\forgiven.mp3"
+"D:\en\en\audio\forgot.mp3"
+"D:\en\en\audio\forgotten.mp3"
+"D:\en\en\audio\forsake.mp3"
+"D:\en\en\audio\forsaken.mp3"
+"D:\en\en\audio\forsook.mp3"
+"D:\en\en\audio\found.mp3"
+"D:\en\en\audio\freeze.mp3"
+"D:\en\en\audio\froze.mp3"
+"D:\en\en\audio\frozen.mp3"
+"D:\en\en\audio\gave.mp3"
+"D:\en\en\audio\get.mp3"
+"D:\en\en\audio\gild.mp3"
+"D:\en\en\audio\gilt, gilded.mp3"
+"D:\en\en\audio\gird.mp3"
+"D:\en\en\audio\girt, girded.mp3"
+"D:\en\en\audio\give.mp3"
+"D:\en\en\audio\given.mp3"
+"D:\en\en\audio\go.mp3"
+"D:\en\en\audio\gone.mp3"
+"D:\en\en\audio\got, gotten.mp3"
+"D:\en\en\audio\got.mp3"
+"D:\en\en\audio\grew.mp3"
+"D:\en\en\audio\grind.mp3"
+"D:\en\en\audio\ground, grinded.mp3"
+"D:\en\en\audio\grow.mp3"
+"D:\en\en\audio\grown.mp3"
+"D:\en\en\audio\had.mp3"
+"D:\en\en\audio\hang.mp3"
+"D:\en\en\audio\have.mp3"
+"D:\en\en\audio\hear.mp3"
+"D:\en\en\audio\heard.mp3"
+"D:\en\en\audio\heave.mp3"
+"D:\en\en\audio\held.mp3"
+"D:\en\en\audio\hew, hewed.mp3"
+"D:\en\en\audio\hew.mp3"
+"D:\en\en\audio\hewn, hewed.mp3"
+"D:\en\en\audio\hid.mp3"
+"D:\en\en\audio\hidden.mp3"
+"D:\en\en\audio\hide.mp3"
+"D:\en\en\audio\hit.mp3"
+"D:\en\en\audio\hoist, hoisted.mp3"
+"D:\en\en\audio\hoist.mp3"
+"D:\en\en\audio\hold.mp3"
+"D:\en\en\audio\hove, heaved.mp3"
+"D:\en\en\audio\hoven, heaved, hove.mp3"
+"D:\en\en\audio\hung.mp3"
+"D:\en\en\audio\hurt.mp3"
+"D:\en\en\audio\keep.mp3"
+"D:\en\en\audio\ken.mp3"
+"D:\en\en\audio\kent, kenned.mp3"
+"D:\en\en\audio\kept.mp3"
+"D:\en\en\audio\kneel.mp3"
+"D:\en\en\audio\knelt, kneeled.mp3"
+"D:\en\en\audio\knew.mp3"
+"D:\en\en\audio\knit, knitted.mp3"
+"D:\en\en\audio\knit.mp3"
+"D:\en\en\audio\know.mp3"
+"D:\en\en\audio\known.mp3"
+"D:\en\en\audio\lade.mp3"
+"D:\en\en\audio\laden, laded.mp3"
+"D:\en\en\audio\laid.mp3"
+"D:\en\en\audio\lain.mp3"
+"D:\en\en\audio\lay.mp3"
+"D:\en\en\audio\lead.mp3"
+"D:\en\en\audio\lean.mp3"
+"D:\en\en\audio\leant, leaned.mp3"
+"D:\en\en\audio\leap.mp3"
+"D:\en\en\audio\leapt, leaped.mp3"
+"D:\en\en\audio\learn.mp3"
+"D:\en\en\audio\learnt, learned.mp3"
+"D:\en\en\audio\leave.mp3"
+"D:\en\en\audio\led.mp3"
+"D:\en\en\audio\left.mp3"
+"D:\en\en\audio\lend.mp3"
+"D:\en\en\audio\lent.mp3"
+"D:\en\en\audio\let.mp3"
+"D:\en\en\audio\lie.mp3"
+"D:\en\en\audio\light.mp3"
+"D:\en\en\audio\lit.mp3"
+"D:\en\en\audio\lode, laded.mp3"
+"D:\en\en\audio\lose.mp3"
+"D:\en\en\audio\lost.mp3"
+"D:\en\en\audio\made.mp3"
+"D:\en\en\audio\make.mp3"
+"D:\en\en\audio\mean.mp3"
+"D:\en\en\audio\meant.mp3"
+"D:\en\en\audio\meet.mp3"
+"D:\en\en\audio\melt.mp3"
+"D:\en\en\audio\met.mp3"
+"D:\en\en\audio\molt, melted.mp3"
+"D:\en\en\audio\molt, molted.mp3"
+"D:\en\en\audio\molten, melted.mp3"
+"D:\en\en\audio\mow.mp3"
+"D:\en\en\audio\mowed.mp3"
+"D:\en\en\audio\mown, mowed.mp3"
+"D:\en\en\audio\or.mp3"
+"D:\en\en\audio\paid.mp3"
+"D:\en\en\audio\pay.mp3"
+"D:\en\en\audio\plead.mp3"
+"D:\en\en\audio\pled, pleaded.mp3"
+"D:\en\en\audio\prove.mp3"
+"D:\en\en\audio\proved.mp3"
+"D:\en\en\audio\proven, proved.mp3"
+"D:\en\en\audio\put.mp3"
+"D:\en\en\audio\quit, quitted.mp3"
+"D:\en\en\audio\quit.mp3"
+"D:\en\en\audio\ran.mp3"
+"D:\en\en\audio\rang.mp3"
+"D:\en\en\audio\read.mp3"
+"D:\en\en\audio\read2.mp3"
+"D:\en\en\audio\rend.mp3"
+"D:\en\en\audio\rent.mp3"
+"D:\en\en\audio\rid, ridded.mp3"
+"D:\en\en\audio\rid.mp3"
+"D:\en\en\audio\ridden.mp3"
+"D:\en\en\audio\ride.mp3"
+"D:\en\en\audio\ring.mp3"
+"D:\en\en\audio\rise.mp3"
+"D:\en\en\audio\risen.mp3"
+"D:\en\en\audio\rive.mp3"
+"D:\en\en\audio\riven, rived.mp3"
+"D:\en\en\audio\rode.mp3"
+"D:\en\en\audio\rose.mp3"
+"D:\en\en\audio\rove, rived.mp3"
+"D:\en\en\audio\run.mp3"
+"D:\en\en\audio\rung.mp3"
+"D:\en\en\audio\said.mp3"
+"D:\en\en\audio\sang.mp3"
+"D:\en\en\audio\sank.mp3"
+"D:\en\en\audio\sat.mp3"
+"D:\en\en\audio\saw.mp3"
+"D:\en\en\audio\sawed.mp3"
+"D:\en\en\audio\sawn, sawed.mp3"
+"D:\en\en\audio\say.mp3"
+"D:\en\en\audio\see.mp3"
+"D:\en\en\audio\seek.mp3"
+"D:\en\en\audio\seen.mp3"
+"D:\en\en\audio\seethe.mp3"
+"D:\en\en\audio\sell.mp3"
+"D:\en\en\audio\send.mp3"
+"D:\en\en\audio\sent.mp3"
+"D:\en\en\audio\set.mp3"
+"D:\en\en\audio\sew.mp3"
+"D:\en\en\audio\sewed.mp3"
+"D:\en\en\audio\sewn, sewed, sewen.mp3"
+"D:\en\en\audio\shake.mp3"
+"D:\en\en\audio\shaken.mp3"
+"D:\en\en\audio\shave.mp3"
+"D:\en\en\audio\shaved.mp3"
+"D:\en\en\audio\shaven.mp3"
+"D:\en\en\audio\shear.mp3"
+"D:\en\en\audio\shed.mp3"
+"D:\en\en\audio\shit, shat, shitted, shitten.mp3"
+"D:\en\en\audio\shit, shat, shitted.mp3"
+"D:\en\en\audio\shit.mp3"
+"D:\en\en\audio\shod, shoed.mp3"
+"D:\en\en\audio\shodden, shod, shoed.mp3"
+"D:\en\en\audio\shoe, shoed.mp3"
+"D:\en\en\audio\shoe.mp3"
+"D:\en\en\audio\shook.mp3"
+"D:\en\en\audio\shoot.mp3"
+"D:\en\en\audio\shore, sheared.mp3"
+"D:\en\en\audio\shorn, sheared.mp3"
+"D:\en\en\audio\shot.mp3"
+"D:\en\en\audio\show.mp3"
+"D:\en\en\audio\showed.mp3"
+"D:\en\en\audio\shown.mp3"
+"D:\en\en\audio\shrank.mp3"
+"D:\en\en\audio\shrink.mp3"
+"D:\en\en\audio\shrunk.mp3"
+"D:\en\en\audio\shut.mp3"
+"D:\en\en\audio\sing.mp3"
+"D:\en\en\audio\sink.mp3"
+"D:\en\en\audio\sit.mp3"
+"D:\en\en\audio\slank, slunk, slinked.mp3"
+"D:\en\en\audio\sleep.mp3"
+"D:\en\en\audio\slept.mp3"
+"D:\en\en\audio\slid.mp3"
+"D:\en\en\audio\slidden, slid.mp3"
+"D:\en\en\audio\slide.mp3"
+"D:\en\en\audio\sling.mp3"
+"D:\en\en\audio\slink.mp3"
+"D:\en\en\audio\slip.mp3"
+"D:\en\en\audio\slipt, slipped.mp3"
+"D:\en\en\audio\slit.mp3"
+"D:\en\en\audio\slitten.mp3"
+"D:\en\en\audio\slung.mp3"
+"D:\en\en\audio\slunk, slinked, slank.mp3"
+"D:\en\en\audio\smell.mp3"
+"D:\en\en\audio\smelt, smelled.mp3"
+"D:\en\en\audio\smite.mp3"
+"D:\en\en\audio\smitten, smitted.mp3"
+"D:\en\en\audio\smote, smit.mp3"
+"D:\en\en\audio\sod, seethed.mp3"
+"D:\en\en\audio\sodden, seethed.mp3"
+"D:\en\en\audio\sold.mp3"
+"D:\en\en\audio\sought.mp3"
+"D:\en\en\audio\sow.mp3"
+"D:\en\en\audio\sowed.mp3"
+"D:\en\en\audio\sown, sowed.mp3"
+"D:\en\en\audio\span.mp3"
+"D:\en\en\audio\spat, spit.mp3"
+"D:\en\en\audio\speak.mp3"
+"D:\en\en\audio\spell.mp3"
+"D:\en\en\audio\spelt, spelled.mp3"
+"D:\en\en\audio\spend.mp3"
+"D:\en\en\audio\spent.mp3"
+"D:\en\en\audio\spill.mp3"
+"D:\en\en\audio\spilt, spilled.mp3"
+"D:\en\en\audio\spin.mp3"
+"D:\en\en\audio\spit.mp3"
+"D:\en\en\audio\split.mp3"
+"D:\en\en\audio\spoke.mp3"
+"D:\en\en\audio\spoken.mp3"
+"D:\en\en\audio\sprang.mp3"
+"D:\en\en\audio\spread, spreaded.mp3"
+"D:\en\en\audio\spread.mp3"
+"D:\en\en\audio\spring.mp3"
+"D:\en\en\audio\sprung.mp3"
+"D:\en\en\audio\spun.mp3"
+"D:\en\en\audio\stand.mp3"
+"D:\en\en\audio\stank, stunk.mp3"
+"D:\en\en\audio\stave.mp3"
+"D:\en\en\audio\steal.mp3"
+"D:\en\en\audio\stick.mp3"
+"D:\en\en\audio\sting.mp3"
+"D:\en\en\audio\stink.mp3"
+"D:\en\en\audio\stole.mp3"
+"D:\en\en\audio\stolen.mp3"
+"D:\en\en\audio\stove, staved.mp3"
+"D:\en\en\audio\stove.mp3"
+"D:\en\en\audio\stoven, stove, staved.mp3"
+"D:\en\en\audio\straught, straight, stretched.mp3"
+"D:\en\en\audio\stretch.mp3"
+"D:\en\en\audio\strew.mp3"
+"D:\en\en\audio\strewed.mp3"
+"D:\en\en\audio\strewn.mp3"
+"D:\en\en\audio\stridden, strode, strid, strided.mp3"
+
+
+audio/stride.mp3
+audio/strike.mp3
+audio/string.mp3
+audio/strip.mp3
+audio/stript, stripped.mp3
+audio/strive.mp3
+audio/striven, strived.mp3
+audio/strode, strided.mp3
+audio/strove, strived.mp3
+audio/struck, stricken.mp3
+audio/struck.mp3
+audio/strung, stringed.mp3
+audio/stuck, sticked.mp3
+audio/stung, stang.mp3
+audio/stung.mp3
+audio/stunk.mp3
+audio/sung.mp3
+audio/sunk.mp3
+audio/swam.mp3
+audio/swang.mp3
+audio/swear.mp3
+audio/sweat, sweated.mp3
+audio/sweat.mp3
+audio/sweep.mp3
+audio/swell.mp3
+audio/swelt, swole, swoll, swelled.mp3
+audio/swelt.mp3
+audio/swept, sweeped.mp3
+audio/swim.mp3
+audio/swing.mp3
+audio/swollen, swelled.mp3
+audio/swore.mp3
+audio/sworn.mp3
+audio/swum.mp3
+audio/swung.mp3
+audio/take.mp3
+audio/taken.mp3
+audio/taught.mp3
+audio/teach.mp3
+audio/tear.mp3
+audio/tell.mp3
+audio/think.mp3
+audio/thought.mp3
+audio/threw.mp3
+audio/thrive.mp3
+audio/thriven, thrived.mp3
+audio/throve, thrived, thrave.mp3
+audio/throve, thrived.mp3
+audio/throw.mp3
+audio/thrown.mp3
+audio/thrust, thrusted.mp3
+audio/thrust.mp3
+audio/told.mp3
+audio/took.mp3
+audio/tore.mp3
+audio/torn.mp3
+audio/understand.mp3
+audio/understood.mp3
+audio/vex.mp3
+audio/vext, vexed.mp3
+audio/wake.mp3
+audio/was, were.mp3
+audio/wax.mp3
+audio/waxen, waxed.mp3
+audio/wear.mp3
+audio/weave.mp3
+audio/wed, wedded.mp3
+audio/wed.mp3
+audio/weep.mp3
+audio/wend.mp3
+audio/went, wended.mp3
+audio/went.mp3
+audio/wept, weeped.mp3
+audio/wet, wetted.mp3
+audio/wet.mp3
+audio/wex, waxed.mp3
+audio/win.mp3
+audio/wind.mp3
+audio/woke.mp3
+audio/woken.mp3
+audio/won.mp3
+audio/wore.mp3
+audio/worn.mp3
+audio/wound.mp3
+audio/wove.mp3
+audio/woven.mp3
+audio/wrang, wrung, wringed.mp3
+audio/wreak.mp3
+audio/wring.mp3
+audio/write.mp3
+audio/writhe.mp3
+audio/writhen, writhed.mp3
+audio/written.mp3
+audio/wroke, wreaked.mp3
+audio/wroken, wreaked.mp3
+audio/wrote.mp3
+audio/wrothe, writhed.mp3
+audio/wrung, wringed.mp3
+audio/ate.mp3
+audio/be (am, is, are).mp3
+audio/bear.mp3
+audio/beat.mp3
+audio/beaten.mp3
+audio/became.mp3
+audio/become.mp3
+audio/been.mp3
+audio/began.mp3
+audio/beget.mp3
+audio/begin.mp3
+audio/begot.mp3
+audio/begotten.mp3
+audio/begun.mp3
+audio/bend.mp3
+audio/bent.mp3
+audio/bereave.mp3
+audio/bereft, bereaved.mp3
+audio/beseech.mp3
+audio/besought, beseeched.mp3
+audio/bet.mp3
+audio/bid.mp3
+audio/bidden, bided.mp3
+audio/bide.mp3
+audio/bind.mp3
+audio/bit.mp3
+audio/bite.mp3
+audio/bitten.mp3
+audio/bled.mp3
+audio/bleed.mp3
+audio/blew.mp3
+audio/blow.mp3
+audio/blown.mp3
+audio/bode, bided.mp3
+audio/bore.mp3
+audio/born, borne.mp3
+audio/bought.mp3
+audio/bound.mp3
+audio/break.mp3
+audio/bred.mp3
+audio/breed.mp3
+audio/bring.mp3
+audio/broadcast, broadcasted.mp3
+audio/broadcast.mp3
+audio/broke.mp3
+audio/broken.mp3
+audio/brought.mp3
+audio/build.mp3
+audio/built.mp3
+audio/burn.mp3
+audio/burnt, burned.mp3
+audio/burst.mp3
+audio/bust, busted.mp3
+audio/bust.mp3
+audio/buy.mp3
+audio/came.mp3
+audio/cast.mp3
+audio/catch.mp3
+audio/caught.mp3
+audio/chid, chided.mp3
+audio/chidden, chided, chid.mp3
+audio/chide.mp3
+audio/choose.mp3
+audio/chose.mp3
+audio/chosen.mp3
+audio/clad, clothed.mp3
+audio/clad.mp3
+audio/clap.mp3
+audio/clapt, clapped.mp3
+audio/cleave.mp3
+audio/cleft, cleaved.mp3
+audio/cling.mp3
+audio/clothe.mp3
+audio/cloven, cleaved.mp3
+audio/clung.mp3
+audio/come.mp3
+audio/cost, costed.mp3
+audio/cost.mp3
+audio/creep.mp3
+audio/crept, crope.mp3
+audio/crept, cropen.mp3
+audio/crew, crowed.mp3
+audio/crow.mp3
+audio/crown, crowed.mp3
+audio/cut.mp3
+audio/dare.mp3
+audio/deal.mp3
+audio/dealt.mp3
+audio/did.mp3
+audio/dig.mp3
+audio/dive.mp3
+audio/do.mp3
+audio/done.mp3
+audio/dove, dived.mp3
+audio/drag.mp3
+audio/drank.mp3
+audio/draw.mp3
+audio/drawn.mp3
+audio/dress.mp3
+audio/drest, dressed.mp3
+audio/drew.mp3
+audio/drink.mp3
+audio/drive.mp3
+audio/driven.mp3
+audio/drove.mp3
+audio/drug, dragged.mp3
+audio/drunk.mp3
+audio/dug.mp3
+audio/durst, dared.mp3
+audio/dwell.mp3
+audio/dwelt, dwelled.mp3
+audio/eat.mp3
+audio/eaten.mp3
+audio/fall.mp3
+audio/fallen.mp3
+audio/fed.mp3
+audio/feed.mp3
+audio/feel.mp3
+audio/fell.mp3
+audio/felt.mp3
+audio/fight.mp3
+audio/find.mp3
+audio/fit, fitted.mp3
+audio/fit.mp3
+audio/fled.mp3
+audio/flee.mp3
+audio/flew.mp3
+audio/fling.mp3
+audio/flown.mp3
+audio/flung.mp3
+audio/fly.mp3
+audio/forbade.mp3
+audio/forbid.mp3
+audio/forbidden.mp3
+audio/forgave.mp3
+audio/forget.mp3
+audio/forgive.mp3
+audio/forgiven.mp3
+audio/forgot.mp3
+audio/forgotten.mp3
+audio/forsake.mp3
+audio/forsaken.mp3
+audio/forsook.mp3
+audio/found.mp3
+audio/freeze.mp3
+audio/froze.mp3
+audio/frozen.mp3
+audio/gave.mp3
+audio/get.mp3
+audio/gild.mp3
+audio/gilt, gilded.mp3
+audio/gird.mp3
+audio/girt, girded.mp3
+audio/give.mp3
+audio/given.mp3
+audio/go.mp3
+audio/gone.mp3
+audio/got, gotten.mp3
+audio/got.mp3
+audio/grew.mp3
+audio/grind.mp3
+audio/ground, grinded.mp3
+audio/grow.mp3
+audio/grown.mp3
+audio/had.mp3
+audio/hang.mp3
+audio/have.mp3
+audio/hear.mp3
+audio/heard.mp3
+audio/heave.mp3
+audio/held.mp3
+audio/hew, hewed.mp3
+audio/hew.mp3
+audio/hewn, hewed.mp3
+audio/hid.mp3
+audio/hidden.mp3
+audio/hide.mp3
+audio/hit.mp3
+audio/hoist, hoisted.mp3
+audio/hoist.mp3
+audio/hold.mp3
+audio/hove, heaved.mp3
+audio/hoven, heaved, hove.mp3
+audio/hung.mp3
+audio/hurt.mp3
+audio/keep.mp3
+audio/ken.mp3
+audio/kent, kenned.mp3
+audio/kept.mp3
+audio/kneel.mp3
+audio/knelt, kneeled.mp3
+audio/knew.mp3
+audio/knit, knitted.mp3
+audio/knit.mp3
+audio/know.mp3
+audio/known.mp3
+audio/lade.mp3
+audio/laden, laded.mp3
+audio/laid.mp3
+audio/lain.mp3
+audio/lay.mp3
+audio/lead.mp3
+audio/lean.mp3
+audio/leant, leaned.mp3
+audio/leap.mp3
+audio/leapt, leaped.mp3
+audio/learn.mp3
+audio/learnt, learned.mp3
+audio/leave.mp3
+audio/led.mp3
+audio/left.mp3
+audio/lend.mp3
+audio/lent.mp3
+audio/let.mp3
+audio/lie.mp3
+audio/light.mp3
+audio/lit.mp3
+audio/lode, laded.mp3
+audio/lose.mp3
+audio/lost.mp3
+audio/made.mp3
+audio/make.mp3
+audio/mean.mp3
+audio/meant.mp3
+audio/meet.mp3
+audio/melt.mp3
+audio/met.mp3
+audio/molt, melted.mp3
+audio/molt, molted.mp3
+audio/molten, melted.mp3
+audio/mow.mp3
+audio/mowed.mp3
+audio/mown, mowed.mp3
+audio/or.mp3
+audio/paid.mp3
+audio/pay.mp3
+audio/plead.mp3
+audio/pled, pleaded.mp3
+audio/prove.mp3
+audio/proved.mp3
+audio/proven, proved.mp3
+audio/put.mp3
+audio/quit, quitted.mp3
+audio/quit.mp3
+audio/ran.mp3
+audio/rang.mp3
+audio/read.mp3
+audio/read2.mp3
+audio/rend.mp3
+audio/rent.mp3
+audio/rid, ridded.mp3
+audio/rid.mp3
+audio/ridden.mp3
+audio/ride.mp3
+audio/ring.mp3
+audio/rise.mp3
+audio/risen.mp3
+audio/rive.mp3
+audio/riven, rived.mp3
+audio/rode.mp3
+audio/rose.mp3
+audio/rove, rived.mp3
+audio/run.mp3
+audio/rung.mp3
+audio/said.mp3
+audio/sang.mp3
+audio/sank.mp3
+audio/sat.mp3
+audio/saw.mp3
+audio/sawed.mp3
+audio/sawn, sawed.mp3
+audio/say.mp3
+audio/see.mp3
+audio/seek.mp3
+audio/seen.mp3
+audio/seethe.mp3
+audio/sell.mp3
+audio/send.mp3
+audio/sent.mp3
+audio/set.mp3
+audio/sew.mp3
+audio/sewed.mp3
+audio/sewn, sewed, sewen.mp3
+audio/shake.mp3
+audio/shaken.mp3
+audio/shave.mp3
+audio/shaved.mp3
+audio/shaven.mp3
+audio/shear.mp3
+audio/shed.mp3
+audio/shit, shat, shitted, shitten.mp3
+audio/shit, shat, shitted.mp3
+audio/shit.mp3
+audio/shod, shoed.mp3
+audio/shodden, shod, shoed.mp3
+audio/shoe, shoed.mp3
+audio/shoe.mp3
+audio/shook.mp3
+audio/shoot.mp3
+audio/shore, sheared.mp3
+audio/shorn, sheared.mp3
+audio/shot.mp3
+audio/show.mp3
+audio/showed.mp3
+audio/shown.mp3
+audio/shrank.mp3
+audio/shrink.mp3
+audio/shrunk.mp3
+audio/shut.mp3
+audio/sing.mp3
+audio/sink.mp3
+audio/sit.mp3
+audio/slank, slunk, slinked.mp3
+audio/sleep.mp3
+audio/slept.mp3
+audio/slid.mp3
+audio/slidden, slid.mp3
+audio/slide.mp3
+audio/sling.mp3
+audio/slink.mp3
+audio/slip.mp3
+audio/slipt, slipped.mp3
+audio/slit.mp3
+audio/slitten.mp3
+audio/slung.mp3
+audio/slunk, slinked, slank.mp3
+audio/smell.mp3
+audio/smelt, smelled.mp3
+audio/smite.mp3
+audio/smitten, smitted.mp3
+audio/smote, smit.mp3
+audio/sod, seethed.mp3
+audio/sodden, seethed.mp3
+audio/sold.mp3
+audio/sought.mp3
+audio/sow.mp3
+audio/sowed.mp3
+audio/sown, sowed.mp3
+audio/span.mp3
+audio/spat, spit.mp3
+audio/speak.mp3
+audio/spell.mp3
+audio/spelt, spelled.mp3
+audio/spend.mp3
+audio/spent.mp3
+audio/spill.mp3
+audio/spilt, spilled.mp3
+audio/spin.mp3
+audio/spit.mp3
+audio/split.mp3
+audio/spoke.mp3
+audio/spoken.mp3
+audio/sprang.mp3
+audio/spread, spreaded.mp3
+audio/spread.mp3
+audio/spring.mp3
+audio/sprung.mp3
+audio/spun.mp3
+audio/stand.mp3
+audio/stank, stunk.mp3
+audio/stave.mp3
+audio/steal.mp3
+audio/stick.mp3
+audio/sting.mp3
+audio/stink.mp3
+audio/stole.mp3
+audio/stolen.mp3
+audio/stove, staved.mp3
+audio/stove.mp3
+audio/stoven, stove, staved.mp3
+audio/straught, straight, stretched.mp3
+audio/stretch.mp3
+audio/strew.mp3
+audio/strewed.mp3
+audio/strewn.mp3
+audio/stridden, strode, strid, strided.mp3
